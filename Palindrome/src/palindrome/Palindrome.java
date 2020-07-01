@@ -2,7 +2,7 @@ package palindrome;
 
 public class Palindrome {
 	public boolean isPalindrome(String input){
-		input=input.replaceAll(" ","");
+		input=input.replaceAll("[^A-Za-z0-9]","");
 		input=input.toLowerCase();
 		int n = input.length();
 	    	for( int i = 0; i <= n/2; i++ )
