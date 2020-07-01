@@ -3,11 +3,11 @@ package matrices;
 public class Matrix {
 	private int rows;
 	private int columns;
-	private int[][] matrix;
-	public Matrix(int rows, int cols, int[][] matrix) {
+	private int[][] matrixDefinition;
+	public Matrix(int rows, int cols, int[][] matrixDefinition) {
 		setRows(rows);
 		setColumns(cols);
-		setMatrix(matrix);
+		setMatrixDefinition(matrixDefinition);
 	}
 	public void setRows(int rows){
 		this.rows=rows;
@@ -21,11 +21,11 @@ public class Matrix {
 	public int getColumns() {
 		return columns;
 	}
-	public void setMatrix(int[][]matrix) {
-		this.matrix=matrix;
+	public void setMatrixDefinition(int[][]matrixDefinition) {
+		this.matrixDefinition=matrixDefinition;
 	}
-	public int[][] getMatrix() {
-		return matrix;
+	public int[][] getMatrixDefinition() {
+		return matrixDefinition;
 	}
 	
 	
