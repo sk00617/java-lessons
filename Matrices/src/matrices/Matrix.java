@@ -5,9 +5,9 @@ public class Matrix {
 	private int columns;
 	private int[][] matrixDefinition;
 	public Matrix(int rows, int cols, int[][] matrixDefinition) {
-		setRows(rows);
-		setColumns(cols);
-		setMatrixDefinition(matrixDefinition);
+		this.rows=rows;
+		this.columns=cols;
+		this.matrixDefinition=matrixDefinition;
 	}
 	public void setRows(int rows){
 		this.rows=rows;
