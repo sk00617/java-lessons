@@ -17,8 +17,6 @@ public class Anagram {
 		if (firstWord.length() != secondWord.length())
 			return false;
 		else {
-			System.out.print(firstWord);
-			System.out.print(secondWord);
 			char[] word1=firstWord.toCharArray();
 			Arrays.sort(word1);
 			char[] word2=secondWord.toCharArray();
